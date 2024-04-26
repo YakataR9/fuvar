@@ -34,5 +34,24 @@ for sor in fuvarlista:
         if fuvarszam == 4:
             print("4. feladat:",fuvarszam,"fuvar alatt:",borravalok,"$")
 
+keszpenz = 0
+bankkartya = 0
+vitatott = 0
+ingyenes = 0
+ismeretlen = 0
 
+for sor in fuvarlista:
+    if sor.fizetesmod == "készpénz":
+        keszpenz += 1
+    elif sor.fizetesmod == "bankkártya":
+        bankkartya += 1
+    elif sor.fizetesmod == "vitatott":
+        vitatott += 1
+    elif sor.fizetesmod == "ingyenes":
+        ingyenes += 1
+    elif sor.fizetesmod == "ismretlen":
+        ismeretlen += 1
+        
+print("5.feladat",)
+    
                 
