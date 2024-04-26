@@ -52,6 +52,7 @@ for sor in fuvarlista:
     elif sor.fizetesmod == "ismretlen":
         ismeretlen += 1
         
-print("5.feladat",)
+print("5.feladat: \nKészpénz:",keszpenz,"\nBankkártya:",bankkartya,"\nVitatott:",vitatott,"\nIngyenes:",ingyenes,"\nIsmeretlen:",ismeretlen)
+
     
                 
