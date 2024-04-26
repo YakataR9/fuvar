@@ -49,7 +49,7 @@ for sor in fuvarlista:
         vitatott += 1
     elif sor.fizetesmod == "ingyenes":
         ingyenes += 1
-    elif sor.fizetesmod == "ismretlen":
+    elif sor.fizetesmod == "ismeretlen":
         ismeretlen += 1
         
 print("5.feladat: \nKészpénz:",keszpenz,"\nBankkártya:",bankkartya,"\nVitatott:",vitatott,"\nIngyenes:",ingyenes,"\nIsmeretlen:",ismeretlen)
